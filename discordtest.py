@@ -104,4 +104,4 @@ async def on_voice_state_update(member, before, after):
         elif '기타 게임 ' in before.channel.name and before.channel.name != '기타 게임 만들기' and len(before.channel.members) == 0: 
             await before.channel.delete()
 
-bot.run('MTE2ODA5NDUwNzA0OTQyNzAwNA.Gk19y6.2ZRqV529qQ5QCW2TPrH-6HZ14aJLU8oxiWv9nE')
+bot.run('MTE2ODA5NDUwNzA0OTQyNzAwNA.GjuXml.hSq_OHig44TCXczsHHx7yzk_QWUu5oKbi5kgY4')
